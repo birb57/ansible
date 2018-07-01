@@ -1,0 +1,18 @@
+---
+:settings:
+  :user: admin
+  :pass: redhat
+  :uri: https://sat6srv.example.com
+  :timeout: 300
+  :org: 1
+  :lifecycle: 2
+  :keep: 9
+:ccv:
+   bat_cv:
+     my_cv2: latest
+     my_cv: latest
+:publish:
+  - my_cv
+  - my_cv2
+:promote:
+  - bat_cv
