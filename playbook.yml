@@ -23,6 +23,9 @@
         - python-pip
         - python3-pip
         - openjdk-7-jdk
+        - lsscsi
+        - sg3_utils
+        - tcpdump
 
     - name: Add Jenkins repository key
       apt_key:
